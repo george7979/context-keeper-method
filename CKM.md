@@ -2,7 +2,7 @@
 
 **Version:** 1.0
 **Date:** September 2025
-**Author:** Development Team
+**Author:** Jerzy Mączewski
 **Purpose:** Universal documentation framework for AI-assisted work across any domain - projects, change management, research, operations
 
 ---
