@@ -38,21 +38,21 @@ CKM implements **context engineering** principles - the systematic practice of s
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    CKM CORE SYSTEM                         │
+│                     CKM CORE SYSTEM                        │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐     │
-│  │    PRD.md   │    │   PLAN.md   │    │   TECH.md   │     │
-│  │─────────────│    │─────────────│    │─────────────│     │
-│  │ WHAT & WHY  │────│    WHEN     │────│     HOW     │     │
-│  │             │    │             │    │             │     │
-│  │ • Problem   │    │ • Timeline  │    │ • Architecture │ │
-│  │ • Goals     │    │ • Tasks     │    │ • Stack      │   │
-│  │ • Requirements  │ • Priorities │    │ • Guidelines │   │
-│  │ • Success   │    │ • Resources │    │ • Issues     │   │
-│  └─────────────┘    └─────────────┘    └─────────────┘     │
+│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐  │
+│  │    PRD.md     │  │   PLAN.md     │  │   TECH.md     │  │
+│  │───────────────│  │───────────────│  │───────────────│  │
+│  │  WHAT & WHY   │──│     WHEN      │──│      HOW      │  │
+│  │               │  │               │  │               │  │
+│  │ • Problem     │  │ • Timeline    │  │ • Architecture│  │
+│  │ • Goals       │  │ • Tasks       │  │ • Stack       │  │
+│  │ • Requirements│  │ • Priorities  │  │ • Guidelines  │  │
+│  │ • Success     │  │ • Resources   │  │ • Issues      │  │
+│  └───────────────┘  └───────────────┘  └───────────────┘  │
 │                                                             │
-│            Persistent AI Context Across Sessions           │
+│           Persistent AI Context Across Sessions            │
 └─────────────────────────────────────────────────────────────┘
 ```
 
