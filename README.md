@@ -4,17 +4,15 @@
 
 **Context Keeper Method (CKM)** is a universal documentation framework for AI-assisted work that solves **context loss between sessions**. Whether you're developing products, managing change, conducting research, or improving operations, CKM preserves work continuity across AI sessions through a WHAT-WHEN-HOW framework: PRD (what & why), PLAN (when), and TECH (how).
 
-## ⚡ Quick Start
+## 📖 Full Documentation
 
-```bash
-# Create the 3 core documents
-touch PRD.md     # Requirements & objectives (WHAT & WHY)
-touch PLAN.md    # Timeline and priorities (WHEN)
-touch TECH.md    # Implementation approach (HOW)
+**→ The complete Context Keeper Method methodology is described in [CKM.md](./CKM.md)**
 
-# Add tool extensions if needed
-touch CLAUDE.md  # AI assistant instructions (when using Claude Code)
-```
+This file contains:
+- Detailed methodology explanation
+- Implementation guidelines
+- Document templates
+- Best practices and examples
 
 ## 📚 Resources
 
