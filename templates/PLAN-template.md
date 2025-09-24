@@ -1,5 +1,12 @@
 # Implementation Plan - [Project Name]
 
+<!-- ⚠️ CKM SEPARATION WARNING ⚠️ -->
+<!-- PLAN.md is for TIMELINE FOCUS (WHEN) -->
+<!-- DON'T include: Architecture details, code examples, business justifications, temporary docs as deliverables -->
+<!-- DO include: Phases, milestones, dependencies, task breakdown, priorities -->
+<!-- For business requirements → see PRD.md -->
+<!-- For technical implementation → see TECH.md -->
+
 **Version:** 1.0
 **Date:** [Date]
 **Project Manager:** [Name]

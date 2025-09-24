@@ -1,5 +1,12 @@
 # Technical Architecture Document - [Project Name]
 
+<!-- ⚠️ CKM SEPARATION WARNING ⚠️ -->
+<!-- TECH.md is for IMPLEMENTATION FOCUS (HOW) -->
+<!-- DON'T include: Business rationale, project timeline, user requirements, success metrics -->
+<!-- DO include: Architecture, code structure, APIs, procedures, known issues -->
+<!-- For business context → see PRD.md -->
+<!-- For timeline and planning → see PLAN.md -->
+
 **Version:** 1.0
 **Date:** [Date]
 **Technical Lead:** [Name]

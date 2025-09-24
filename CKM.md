@@ -135,6 +135,123 @@ CKM implements **context engineering** principles - the systematic practice of s
 
 ---
 
+## 🎯 Separation of Concerns Guidelines
+
+### Maintaining Clear Document Boundaries
+
+One of the most critical aspects of CKM is maintaining strict separation between document purposes. Each document answers a single fundamental question and should not overlap with others.
+
+### DO's and DON'Ts for Each Document
+
+#### 📋 PRD.md - Business Focus (WHAT & WHY)
+
+✅ **DO Include:**
+- Business requirements and objectives
+- Stakeholder needs and user stories
+- Problem statements and context
+- Success metrics and KPIs
+- Constraints and assumptions
+- Risk analysis from business perspective
+- Acceptance criteria
+
+❌ **DON'T Include:**
+- Source code or code snippets
+- File paths or line numbers
+- Technical implementation details
+- System architecture diagrams
+- Deployment commands or procedures
+- Timeline information (reference PLAN.md)
+
+#### 📅 PLAN.md - Timeline Focus (WHEN)
+
+✅ **DO Include:**
+- Project phases and milestones
+- Task breakdown and dependencies
+- Resource allocation and responsibilities
+- Risk mitigation timeline
+- Priority levels (P0, P1, P2)
+- Daily/weekly goals and deliverables
+- Communication and stakeholder management
+
+❌ **DON'T Include:**
+- Technical architecture details
+- Code examples or API specifications
+- Business justifications (reference PRD.md)
+- Temporary documentation as deliverables
+- Implementation procedures (reference TECH.md)
+
+#### 🔧 TECH.md - Implementation Focus (HOW)
+
+✅ **DO Include:**
+- System architecture and design
+- Code organization and file structure
+- API specifications and integrations
+- Technical procedures and commands
+- Performance metrics and benchmarks
+- Known issues and solutions
+- Development guidelines and patterns
+
+❌ **DON'T Include:**
+- Business rationale (reference PRD.md)
+- Project timeline (reference PLAN.md)
+- User requirements (reference PRD.md)
+- Success metrics from business perspective
+- Stakeholder communication plans
+
+### Cross-Reference Strategy
+
+**Instead of duplicating content:**
+- ✅ "Implementation details in TECH.md Section 3.2"
+- ✅ "Business rationale documented in PRD.md"
+- ✅ "Timeline impact assessed in PLAN.md Phase 2"
+
+**Avoid redundant explanations:**
+- ❌ Copying the same technical details to multiple documents
+- ❌ Re-explaining business justification in technical docs
+- ❌ Duplicating timeline information across documents
+
+### Common Pitfalls to Avoid
+
+#### 1. **Temporary Documentation Mixing**
+- **Issue:** Creating transitional docs (like MODIFICATIONS.md) and treating them as CKM deliverables
+- **Solution:** Keep temporary docs separate, migrate content to appropriate CKM document, then delete
+
+#### 2. **Boundary Blurring**
+- **Issue:** Adding code snippets to PRD.md "for clarity"
+- **Solution:** Reference TECH.md section instead, maintain strict boundaries
+
+#### 3. **Content Duplication**
+- **Issue:** Same information appearing in multiple documents
+- **Solution:** Single source of truth principle - each piece of information lives in exactly one document
+
+#### 4. **Scope Creep**
+- **Issue:** Documents trying to be "complete" rather than focused
+- **Solution:** Each document serves its specific audience with targeted information
+
+### Pre-Finalization Checklist
+
+Before finalizing your CKM documentation, verify:
+
+#### Document Boundaries:
+- [ ] No code snippets in PRD.md
+- [ ] No architecture details in PLAN.md
+- [ ] No business justifications in TECH.md
+- [ ] No timeline information in PRD.md or TECH.md
+
+#### Cross-References:
+- [ ] All cross-references are accurate and specific
+- [ ] No duplicated content between documents
+- [ ] Each piece of information has single source of truth
+
+#### Quality Checks:
+- [ ] Each document answers its core question (WHAT/WHEN/HOW)
+- [ ] Temporary documentation has been removed or migrated
+- [ ] Document serves its intended audience effectively
+
+**Remember:** Clean separation of concerns prevents documentation debt and ensures each document serves its specific purpose effectively.
+
+---
+
 ## 🔄 Document Update Rules
 
 ### Update Workflows

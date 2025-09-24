@@ -1,5 +1,12 @@
 # Product Requirements Document - [Project Name]
 
+<!-- ⚠️ CKM SEPARATION WARNING ⚠️ -->
+<!-- PRD.md is for BUSINESS FOCUS (WHAT & WHY) -->
+<!-- DON'T include: Code snippets, file paths, technical details, timelines -->
+<!-- DO include: Business requirements, user needs, success metrics -->
+<!-- For implementation details → see TECH.md -->
+<!-- For timeline planning → see PLAN.md -->
+
 **Version:** 1.0
 **Date:** [Date]
 **Author:** [Author Name]
